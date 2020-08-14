@@ -12,6 +12,7 @@
         android:layout_height="35dp"
         android:text="Number1"
         android:textAlignment="center"
+        android:textColor="#660680"
         android:textSize="24sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -31,6 +32,7 @@
         android:layout_marginTop="12dp"
         android:text="Number 2"
         android:textAlignment="center"
+        android:textColor="@color/colorPrimary"
         android:textSize="24sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -76,11 +78,12 @@
         android:layout_height="wrap_content"
         android:layout_below="@id/editTextNumber2"
         android:layout_marginTop="106dp"
+        android:shadowColor="@color/colorAccent"
         android:text="OK"
         android:textSize="18sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
 
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 </RelativeLayout>

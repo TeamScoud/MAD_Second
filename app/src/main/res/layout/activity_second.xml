@@ -43,6 +43,7 @@
         android:layout_marginLeft="130dp"
         android:layout_marginTop="300dp"
         android:text="0"
+        android:textColor="@color/colorPrimary"
         android:textSize="20dp"
         android:textStyle="bold" />
 
@@ -53,5 +54,6 @@
         android:layout_below="@id/textView_answer"
         android:layout_marginLeft="110dp"
         android:layout_marginTop="81dp"
-        android:text="+" />
+        android:text="+"
+        android:textSize="24sp" />
 </RelativeLayout>
