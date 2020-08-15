@@ -43,6 +43,15 @@ public class MainActivity extends AppCompatActivity {
         toast.setGravity(Gravity.CENTER_VERTICAL, 0, 0);
         toast.setView(layout);//setting the view of custom toast layout
         toast.show();
+
+        Button button = (Button) findViewById(R.id.button);
+        button.setOnClickListener(new View.OnClickListener() {
+        @Override
+        public void onClick(View view) {
+          openSecondActivity();
+        }
+
+         });
     }
 
 
